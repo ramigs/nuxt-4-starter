@@ -23,6 +23,10 @@ Make sure that:
 - VScode extension Vetur -> Disabled (Workspace)
 - VScode extension Vue VSCode Snippets -> Enable (Workspace)
 
+## Prerequisites
+
+- Node.js 22.18.0 (the active LTS release at the time of project creation)
+
 ## Setup
 
 Make sure to install dependencies:
