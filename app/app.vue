@@ -11,16 +11,16 @@
 </template>
 
 <script setup lang="ts">
-const x = 'oi!'
+const x = 'oi!';
 
-type Ola = 1 | 2
+type Ola = 1 | 2;
 
-const y: Ola = 3
+const y: Ola = 3;
 
-const myArray = [1, 2, 4]
+const myArray = [1, 2, 4];
 
 function greet(personName: string) {
-  console.log(`Hi ${personName}!`)
+  console.log(`Hi ${personName}!`);
 }
 </script>
 
