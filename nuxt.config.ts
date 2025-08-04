@@ -5,7 +5,10 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   eslint: {
     config: {
-      stylistic: true,
+      stylistic: {
+        semi: true,
+        commaDangle: 'always-multiline',
+      },
     },
   },
 })
