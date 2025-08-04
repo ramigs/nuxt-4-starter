@@ -1,6 +1,16 @@
 # Nuxt Minimal Starter
 
+Nuxt 4 minimal starter optimized for developer experience and current best practices.
+
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+Project originally created using:
+
+```bash
+pnpm create nuxt@latest nuxt-4-starter
+```
+
+Only module selected during installation was `@nuxt/eslint`.
 
 ## Setup
 
