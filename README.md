@@ -26,6 +26,7 @@ Make sure that:
 ## Prerequisites
 
 - Node.js 22.18.0 (the active LTS release at the time of project creation)
+- pnpm@10.14.0
 
 ## Setup
 
@@ -45,23 +46,12 @@ Make sure to install dependencies:
 pnpm install
 ```
 
-## Development Server
+## Run locally
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
+1. You need to install Node.js, as well as enable corepack to install pnpm.
+1. Clone this repo via `git clone`
+1. Run `pnpm i` to install the dependencies
+1. Run `pnpm dev` to start the local Nuxt dev server
 
 ## Production
 
