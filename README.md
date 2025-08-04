@@ -29,20 +29,20 @@ Make sure that:
 
 ## Setup
 
+Install the required node version.
+
+`nvm` is recommended for managing Node versions.
+
+Enable `corepack`:
+
+```bash
+corepack enable
+```
+
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
