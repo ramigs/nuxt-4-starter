@@ -40,12 +40,6 @@ Enable `corepack`:
 corepack enable
 ```
 
-Make sure to install dependencies:
-
-```bash
-pnpm install
-```
-
 ## Run locally
 
 1. You need to install Node.js, as well as enable corepack to install pnpm.
@@ -58,33 +52,13 @@ pnpm install
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

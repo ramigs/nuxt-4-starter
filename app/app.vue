@@ -17,6 +17,8 @@ type Ola = 1 | 2
 
 const y: Ola = 3
 
+const myArray = [1, 2, 4]
+
 function greet(personName: string) {
   console.log(`Hi ${personName}!`)
 }
