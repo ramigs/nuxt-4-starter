@@ -12,6 +12,17 @@ pnpm create nuxt@latest nuxt-4-starter
 
 Only module selected during installation was `@nuxt/eslint`.
 
+Recommended VSCode extensions:
+
+- Vue (Official)
+- Vue VSCode Snippets
+- ESLint
+
+Make sure that:
+
+- VScode extension Vetur -> Disabled (Workspace)
+- VScode extension Vue VSCode Snippets -> Enable (Workspace)
+
 ## Setup
 
 Make sure to install dependencies:
