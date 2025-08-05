@@ -7,10 +7,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      baseUrl: process.env.NUXT_PUBLIC_BASE_URL,
+      baseUrl: '',
     },
   },
   compatibilityDate: '2025-07-15',
+  telemetry: false,
   eslint: {
     config: {
       stylistic: {
