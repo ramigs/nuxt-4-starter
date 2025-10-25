@@ -1,4 +1,6 @@
-import './env';
+import { getValidatedEnv } from './env/';
+
+getValidatedEnv();
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
