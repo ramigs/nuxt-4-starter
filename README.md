@@ -1,8 +1,11 @@
 # Nuxt Minimal Starter
 
-Nuxt 4 minimal starter optimized for developer experience and current best practices.
+Opinionated Nuxt 4 starter with a focus on developer experience and current best
+practices.
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Look at the [Nuxt
+documentation](https://nuxt.com/docs/getting-started/introduction) to learn
+more.
 
 Project originally created using:
 
@@ -21,6 +24,7 @@ Recommended VSCode extensions:
 Make sure that:
 
 - VScode extension Vetur -> Disabled (Workspace)
+- VScode extension Vue (Official) -> Enable (Workspace)
 - VScode extension Vue VSCode Snippets -> Enable (Workspace)
 
 ## Prerequisites
@@ -61,4 +65,6 @@ Locally preview production build:
 pnpm preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Check out the [deployment
+documentation](https://nuxt.com/docs/getting-started/deployment) for more
+information.

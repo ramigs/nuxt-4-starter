@@ -7,14 +7,14 @@
   },
   "packageManager": "pnpm@10.14.0",
   "scripts": {
-    "cleanup": "nuxt cleanup",
     "build": "nuxt build",
+    "cleanup": "nuxt cleanup",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "lint": "eslint .",
     "postinstall": "nuxt prepare",
-    "typecheck": "nuxt typecheck",
-    "lint": "eslint ."
+    "preview": "nuxt preview",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
     "@nuxt/eslint": "1.9.0",

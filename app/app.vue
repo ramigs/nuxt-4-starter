@@ -1,12 +1,16 @@
 <template>
   <div>
     <h1>Hello from Nuxt 4!</h1>
-    <button @click="greet('Foo')">
-      Greet 1
-    </button> <!-- All good -->
-    <button @click="greet()">
-      Greet 2
-    </button> <!-- Should fail -->
+    <div>
+      <button @click="greet('Foo')">
+        Greet 1
+      </button>
+    </div>
+    <div>
+      <button @click="greet()">
+        Greet 2
+      </button> <!-- Should fail -->
+    </div>
   </div>
 </template>
 
